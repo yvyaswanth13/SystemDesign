@@ -1,3 +1,11 @@
+Real-World Analogy:
+Imagine you subscribe to a YouTube channel. Whenever the channel uploads a new video:
+
+YouTube channel (Subject) → Notifies all subscribers.
+
+Subscribers (Observers) → Get notified and can watch the new video.
+Wether Temprature: When ever temp increases it shpuld update on all devices(Mobile, TV..etc)
+
 interface Observer {
     void update(float temperature);
 }
